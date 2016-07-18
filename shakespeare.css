@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px dashed red;
+  text-align: center;
+}
+body {
+  background-color: #E2AC7F;
+}
+page {
+  /*background-color: #E2AC7F;*/
+}
+
+main {
+  background-color: #F5F5DC;
+  margin: 0 30%;
+  border: 4px dotted black;
+}
+
+h1 {
+  font-family: Impact, sans-serif;
+  font-style: italic;
+  border-bottom: 4px dotted black;
+}
+
+p {
+  font-family: Helvetica-oblique, sans-serif;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/*beige #E2AC7F
+Beige #F5F5DC
+blue #3C3CEB*/
+/*border 10px dotted black*/
