@@ -1,14 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px dashed red;
   text-align: center;
 }
+
 body {
+  margin-top: 10px;
   background-color: #E2AC7F;
-}
-page {
-  /*background-color: #E2AC7F;*/
 }
 
 main {
@@ -20,20 +18,39 @@ main {
 h1 {
   font-family: Impact, sans-serif;
   font-style: italic;
+  font-size: 2em;
   border-bottom: 4px dotted black;
 }
 
+h5 {
+  padding: 2em 2em 1em 2em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 0.70em;
+}
+
+h6 {
+  padding: 10px;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 0.60em;
+}
+
 p {
-  font-family: Helvetica-oblique, sans-serif;
+  font-family: Verdana-italic, sans-serif;
+  font-size: 0.80em;
+  padding-bottom: 0.1em;
 }
 
 p::first-letter {
-  font-weight: bold;
+  font-weight: 575;
   font-style: italic;
+  font-size: 1.3em;
 }
 
-
-/*beige #E2AC7F
-Beige #F5F5DC
-blue #3C3CEB*/
-/*border 10px dotted black*/
+a {
+  color: blue;
+  text-decoration: none;
+}
