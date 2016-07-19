@@ -5,12 +5,12 @@
 }
 
 body {
+  background-color: #E2AC7F;/*gross orange*/
   margin-top: 10px;
-  background-color: #E2AC7F;
 }
 
 main {
-  background-color: #F5F5DC;
+  background-color: #F5F5DC; /*beige*/
   margin: 0 30%;
   border: 4px dotted black;
 }
@@ -44,7 +44,7 @@ p {
   padding-bottom: 0.1em;
 }
 
-span {
+p::first-letter {
   font-weight: 575;
   font-style: italic;
   font-size: 1.3em;
